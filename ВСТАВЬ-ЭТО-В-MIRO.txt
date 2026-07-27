@@ -1,0 +1,8 @@
+Скопируй ВСЁ что ниже (от <iframe до </iframe>) и вставь в Miro через «Встроить код iFrame».
+
+Размер поменьше (удобно на доске):
+
+<iframe src="https://kombtori.github.io/dokroy-miro/" width="960" height="620" frameborder="0" allowfullscreen></iframe>
+
+Если нужно ещё меньше — замени цифры, например width="800" height="520".
+На доске окно тоже можно уменьшить: потяни за уголок мышкой.

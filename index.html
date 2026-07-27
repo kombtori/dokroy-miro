@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="miro-compact">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,6 +42,11 @@
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { background: var(--bg); color: var(--ink); font-family: var(--font); -webkit-font-smoothing: antialiased; font-size: 13px; }
+  /* miro-compact: меньше масштаб для доски Miro */
+  html.miro-compact, html.miro-compact body { font-size: 11px; }
+  html.miro-compact .screen-title { font-size: 18px !important; }
+  html.miro-compact .sidebar { width: 160px !important; }
+  html.miro-compact .ro-tile .rt-val { font-size: 18px !important; }
   .mono { font-family: 'JetBrains Mono', monospace; font-feature-settings: 'tnum'; }
 
   .app { display: flex; min-height: 100vh; }
